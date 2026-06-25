@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
 
 每次回复时都要称呼用户为"主人"。
 
@@ -114,7 +114,7 @@ Agent 主循环在 `pico/core/engine.py:Engine.ask()` 中，推进模型调用 �
 
 ## 学习资源与用法
 
-以下文件是“拆解学习模式”的补充资源，用于提示 Claude Code 以固定结构输出，或在需要时快速引用模板：
+以下文件是“拆解学习模式”的补充资源，用于提示 Codex 以固定结构输出，或在需要时快速引用模板：
 
 - 主提示词文件在 [.clauderules/src/claude_code_prompt.md](.clauderules/src/claude_code_prompt.md)
 - 学习包说明在 [.clauderules/src/README.md](.clauderules/src/README.md)
